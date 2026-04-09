@@ -1,0 +1,24 @@
+{
+  "loss_type": "bce",
+  "best_config": {
+    "hidden_dim": 512,
+    "lr": 0.0005418282319533242,
+    "weight_decay": 1.461896279370496e-05,
+    "batch_size": 512,
+    "la_k": 10,
+    "la_alpha": 0.6925879806965067,
+    "sched_patience": 5,
+    "sched_factor": 0.5369658275448169,
+    "dropout": 0.1185801650879991
+  },
+  "threshold_selection_beta": 2.0,
+  "val_pr_auc": 0.8411631204042006,
+  "test_pr_auc": 0.8397004406230106,
+  "best_thresh": 0.7208126783370972,
+  "val_f2": 0.7867774965409046,
+  "val_recall": 0.7879961277831559,
+  "val_precision": 0.781940441882805,
+  "test_f1": 0.7720739219712526,
+  "test_recall": 0.7886414972571797,
+  "test_precision": 0.7561881188118812
+}
