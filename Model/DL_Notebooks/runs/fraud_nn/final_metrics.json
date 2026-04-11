@@ -1,0 +1,25 @@
+{
+  "best_config": {
+    "lr": 0.0030949708111842346,
+    "batch_size": 1024,
+    "hidden_dim": 512,
+    "weight_decay": 3.606655867281596e-06,
+    "la_k": 5,
+    "la_alpha": 0.7382038506168318,
+    "sched_patience": 5,
+    "sched_factor": 0.3639426136809517,
+    "dropout": 0.15118176340972087,
+    "alpha": 0.6597986061051202,
+    "gamma": 1.2946764714938919
+  },
+  "threshold_selection_beta": 2.0,
+  "val_pr_auc": 0.8014427130942573,
+  "test_pr_auc": 0.7984031020727884,
+  "best_thresh": 0.3110973536968231,
+  "val_fbeta": 0.755651034600938,
+  "val_recall": 0.7831558567279767,
+  "val_precision": 0.6625716625716626,
+  "test_f1": 0.7038114634855979,
+  "test_recall": 0.7805743788318813,
+  "test_precision": 0.6407947019867549
+}
