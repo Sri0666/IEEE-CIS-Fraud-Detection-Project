@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "best_config": {
+    "lr": 0.004477427984113198,
+    "batch_size": 1024,
+    "hidden_dim": 256,
+    "weight_decay": 0.007076022085822006,
+    "la_k": 5,
+    "la_alpha": 0.6047821669899485,
+    "sched_patience": 3,
+    "sched_factor": 0.41145858569464455,
+    "dropout": 0.4633063543866615,
+    "alpha": 0.6838466617334403,
+    "gamma": 1.152026924410504
+  },
+  "threshold_selection_beta": 2.0,
+  "val_pr_auc": 0.8422789037603582,
+  "test_pr_auc": 0.8458302851901878,
+  "best_thresh": 0.30718427896499634,
+  "val_fbeta": 0.7983031217706672,
+  "val_recall": 0.8015488867376573,
+  "val_precision": 0.7855787476280834,
+  "test_f1": 0.7892817504360234,
+  "test_recall": 0.803162310422717,
+  "test_precision": 0.7758728179551122
+}

@@ -1,0 +1,10 @@
+Threshold: 0.307
+
+              precision    recall  f1-score   support
+
+   Non-Fraud       0.99      0.99      0.99     85482
+       Fraud       0.78      0.80      0.79      3099
+
+    accuracy                           0.98     88581
+   macro avg       0.88      0.90      0.89     88581
+weighted avg       0.99      0.98      0.99     88581
