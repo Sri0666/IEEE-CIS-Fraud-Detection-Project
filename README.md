@@ -2,37 +2,6 @@
 
 This project focuses on detecting fraudulent online transactions using the IEEE-CIS Fraud Detection dataset from Kaggle. We explore both classical machine learning and deep learning approaches, with additional work on adversarial robustness and performance optimisation under extreme class imbalance.
 
----
-
-## Repository Structure
-Attack/
-│── attack.txt
-│── itfgsm_attack.ipynb # Iterative FGSM adversarial attack on trained models
-
-Data/
-│── train_identity.zip
-│── train_transaction.zip # Raw Kaggle dataset files
-
-Model/
-│
-├── DL_notebooks/
-│ ├── Model_outputs/
-│ │ ├── *.pt # Saved PyTorch model checkpoints
-│ ├── Model_1.ipynb
-│ ├── Model_2.ipynb
-│ ├── Model_3.ipynb
-│ ├── Final_model.ipynb
-│
-├── ML_notebooks/
-│ ├── Logistic_regression.ipynb
-│ ├── Random_forest.ipynb
-│ ├── xgboost.ipynb
-
-Preprocessing/
-│── Data_preprocessing.ipynb # Data cleaning, merging, feature engineering
-
----
-
 ## Objective
 
 The goal of this project is to build robust models that can accurately detect fraudulent transactions (`isFraud = 1`) while handling:
@@ -43,7 +12,7 @@ The goal of this project is to build robust models that can accurately detect fr
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 We use the **IEEE-CIS Fraud Detection dataset**, which contains:
 
@@ -92,7 +61,7 @@ This tests whether the model remains stable under small but malicious input chan
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Extract dataset files in the `Data/` folder
 2. Run preprocessing:
