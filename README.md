@@ -63,5 +63,6 @@ This tests whether the model remains stable under small but malicious input chan
 
 ## How to Run
 
-1. Extract dataset files in the `Data/` folder
-2. Run preprocessing:
+1. Open the FinalModel_Playground.ipynb notebook in the Professor’s Playground folder.
+2. Run all the cells in the notebook. It has already been configured to retrieve the model weights and parameters, and will output the necessary evaluation metrics for your checking.
+3. To see other graphs such as the training curves, or to view the other models that we have made, please refer to the respective notebooks under the Model folder. Happy viewing!
