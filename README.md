@@ -53,7 +53,7 @@ Key steps include:
 
 We evaluate model robustness using:
 
-- Iterative Fast Gradient Sign Method (I-FGSM)
+- Iterative Targeted Fast Gradient Sign Method (ITFGSM)
 - Adversarial perturbations applied to input features
 - Analysis of performance degradation under attack
 
