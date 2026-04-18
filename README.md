@@ -12,6 +12,12 @@ The goal of this project is to build robust models that can accurately detect fr
 
 ---
 
+## Report
+
+We have included our Project Report in this repository for easy access.
+
+---
+
 ## Dataset
 
 We use the **IEEE-CIS Fraud Detection dataset**, which contains:
@@ -62,7 +68,9 @@ This tests whether the model remains stable under small but malicious input chan
 ---
 
 ## How to Run
+Under the Preprocessing folder, you can find the notebook we used to preprocess our data. Under the Model folder, you can find the different notebooks we used to train our DL and ML models. The .pt files are also included for each model. Under the attack folder, you can find the notebook for the ITFGSM attack we have implemented.
 
-1. Open the FinalModel_Playground.ipynb notebook in the Professor’s Playground folder.
-2. Run all the cells in the notebook. It has already been configured to retrieve the model weights and parameters, and will output the necessary evaluation metrics for your checking.
-3. To see other graphs such as the training curves, or to view the other models that we have made, please refer to the respective notebooks under the Model folder. Happy viewing!
+To run the Final model, open the FinalModel_Playground.ipynb notebook in the Professor’s Playground folder. Run all the cells in the notebook. It has already been configured to retrieve the model weights and parameters, and will output the necessary evaluation metrics for your checking on the test set. 
+
+To see other graphs, such as the training curves, or to view the other models that we have made, please refer to the respective notebooks under the Model folder. To retrain models, run the code in the Preprocessing notebook found in the Preprocessing folder, then run all the cells in the respective model notebook. Happy viewing!
+
